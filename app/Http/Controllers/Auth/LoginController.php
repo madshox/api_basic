@@ -42,6 +42,6 @@ class LoginController extends Controller
     {
         $title = "Login";
 
-        view('auth.login');
+        return view('auth.login');
     }
 }
